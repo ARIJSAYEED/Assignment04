@@ -1,7 +1,12 @@
 function totalFine(fare) {
     // You have to write your code here
-    let fine = fare + fare * (20 / 100) + 30;
-    return fine;
+    if (typeof fare == "number" && fare > 0) {
+        let fine = fare + fare * (20 / 100) + 30;
+        return fine;
+    }
+    else {
+        return "Invalid";
+    }
 }
 let fine = totalFine(200);
 console.log(fine);
