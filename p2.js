@@ -1,5 +1,5 @@
 function onlyCharacter(str) {
-    // You have to write your code here
+
     if (typeof str === String) {
 
         str = str.toUpperCase().replaceAll(" ", "");

@@ -1,5 +1,5 @@
 function bestTeam(player1, player2) {
-    // You have to write your code here
+
     if (typeof player1 === "object" && typeof player2 === "object") {
 
         let pone = player1.foul + player1.cardY + player1.cardR;
