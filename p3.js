@@ -19,6 +19,3 @@ function bestTeam(player1, player2) {
     }
 }
 
-let t1 = { name: "Germany", foul: 12, cardY: 0, cardR: 0 };
-let t2 = 'Sweden';
-console.log(bestTeam(t1, t2));

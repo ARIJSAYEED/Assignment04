@@ -1,7 +1,5 @@
 function onlyCharacter(str) {
-
     if (typeof str === String) {
-
         str = str.toUpperCase().replaceAll(" ", "");
         return str;
     }
@@ -9,6 +7,3 @@ function onlyCharacter(str) {
         return "Invalid";
     }
 }
-
-let test = onlyCharacter(20);
-console.log(test);

@@ -1,5 +1,4 @@
 function totalFine(fare) {
-
     if (typeof fare == "number" && fare > 0) {
         let fine = fare + fare * (20 / 100) + 30;
         return fine;
@@ -7,7 +6,7 @@ function totalFine(fare) {
     else {
         return "Invalid";
     }
+
 }
-let fine = totalFine(200);
-console.log(fine);
+
 
